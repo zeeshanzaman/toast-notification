@@ -18,5 +18,5 @@ function createNotification() {
 }
 
 function getRandomMessage() {
-
+    return message[Math.floor(Math.random() * message.length)]
 }
