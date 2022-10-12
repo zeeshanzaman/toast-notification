@@ -15,6 +15,8 @@ function createNotification() {
     notif.classList.add('toast')
 
     notif.innerText = getRandomMessage()
+
+    toasts.appenChild(notif)
 }
 
 function getRandomMessage() {
