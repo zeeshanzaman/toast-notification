@@ -33,7 +33,7 @@ body {
     transform: scale(0.98);
 }
 
-#toast {
+#toasts {
     position: fixed;
     bottom: 10px;
     right: 10px;
